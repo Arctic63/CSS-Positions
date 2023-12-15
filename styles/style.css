@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    background-color: seashell;
+    min-height: 200vh;
+    /* position: relative; */
+    
+}
+.outer-container {
+    border: 2px dashed #333;
+    width: 75vw;
+    height: 105vh;
+    margin: 40px auto;
+    /* position: relative; */
+    
+}
+.inner-container {
+    border: 2px solid #00f; 
+    width: 40vw;
+    height: 70vh;
+    margin: 200px auto;   
+    /* position: relative; */
+}
+.box {
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    padding: 1rem;
+    
+}
+.absolute {
+    background-color: #00f;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+.relative {
+    background-color: #333;
+    position: relative;
+        
+}
+.fixed {
+    background-color: chocolate;
+    position: fixed;
+    top: 100;
+
+}
+.sticky {
+    background-color: teal;
+    position: sticky;
+    top: 0;
+}
